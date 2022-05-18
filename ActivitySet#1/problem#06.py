@@ -12,5 +12,6 @@ while True:
             if int(a)<small:
                  small=int(a)
     except:
+        print('Invalid input')
         pass    
 print("Maximum =",large,"\nMinimum=",small)
