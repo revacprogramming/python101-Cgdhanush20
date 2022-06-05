@@ -4,7 +4,7 @@ fh=open(fname)
 sum = 0
 l=list()
 for line in fh:
-    line=line.rstrip()
+    line=line.strip()
     x=re.findall('[0-9]+',line)
     l+=x
 for i in l:
