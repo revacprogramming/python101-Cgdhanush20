@@ -5,6 +5,6 @@ elif hrs>40:
     hrs2=hrs-40
     fee=40*10.5+hrs2*10.5
 else:
-    fee=0
+    fee=0.0
 print(fee) 
           
