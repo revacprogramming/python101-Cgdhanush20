@@ -6,5 +6,5 @@ for line in fh:
         l=line
         l.split()
         print(l[1])
-        count += 1
+        count =count+1
 print(count,'number of times the line started with From')
