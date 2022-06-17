@@ -9,5 +9,5 @@ for line in fh:
     l=line.find("0")
     number=float(line[l:])
     total=total+number
-avg=total/count
-print("Average spam confidence:",avg)
+average=total/count
+print("Average spam confidence:",average)
