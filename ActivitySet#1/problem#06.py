@@ -6,7 +6,7 @@ while True:
     if a == 'Done' or a == 'done':
         break
     try:
-        if int(a)>0 or int(a) <=0:
+        if int(a)>=0 or int(a) <=0:
             if int(a)>large:
                  large=int(a)
             if int(a)<small:

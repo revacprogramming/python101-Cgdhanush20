@@ -1,4 +1,5 @@
 hrs = float(input("Enter hours "))
+
 if hrs<= 40:
     fee=hrs*1.5
 elif hrs>40:
