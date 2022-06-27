@@ -16,4 +16,4 @@ for n in counts:
     t=n.find('count').text
     sum=sum+int(t)
     count=count+1
-print('sum=',sum,'\ncount=',count)
+print('sum=',sum,'count=',count)
